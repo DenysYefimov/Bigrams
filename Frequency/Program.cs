@@ -8,7 +8,7 @@ namespace Frequency
     {
         static void Main(string[] args)
         {
-            FileInfo fi = new FileInfo(@"C:\Users\zinoi\OneDrive\Рабочий стол\Новая папка\HarryPotterText.txt");
+            FileInfo fi = new FileInfo("HarryPotterText.txt");
             if (fi.Exists)
             {
                 foreach (var pair in Analyst.FindMostFrequentBigramsInTextFromFile(fi))

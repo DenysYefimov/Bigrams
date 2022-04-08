@@ -11,4 +11,10 @@
     <ProjectReference Include="..\TextAnalysis\TextFromFileAnalysis.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="HarryPotterText.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
